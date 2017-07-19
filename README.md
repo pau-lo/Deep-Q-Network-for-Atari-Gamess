@@ -2,7 +2,7 @@
 --- 
 ## Overview
 
-A Tensorflow DQN implementation based on [DeepMind's DQN](https://storage.googleapis.com/deepmind-data/assets/papers/DeepMindNature14236Paper.pdf) for playing Atari games.This the code for 'Build a game AI'
+A Tensorflow DQN implementation based on [DeepMind's DQN](https://storage.googleapis.com/deepmind-data/assets/papers/DeepMindNature14236Paper.pdf) for playing Atari games.
 
 ## Dependencies
 - [gym](https://gym.openai.com)
@@ -22,6 +22,6 @@ However, if you are on an Anaconda virtual environment no need to type <env_name
 and instead of `--game` just type any other name you would like to try.
 
 ## Credits
-Credit for the vast majority of code here goes to Kee Hyun Won.  I just adjusted the code for my environment and the new 
+Credit for the vast majority of code here goes to Kee Hyun Won.  I just adjusted the code for my environment and for the new 
 tensorflow deprecated variables.
 
