@@ -1,7 +1,7 @@
 # AI_atari_games
 --- 
 ## Overview
-====
+
 A Tensorflow DQN implementation based on [DeepMind's DQN](https://storage.googleapis.com/deepmind-data/assets/papers/DeepMindNature14236Paper.pdf) for playing Atari games.This the code for 'Build a game AI'
 
 
