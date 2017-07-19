@@ -19,7 +19,7 @@ However, if you are on an Anaconda virtual environment no need to type <env_name
 
 `python atari.py --game SpaceInvaders-v0 --display true`
 
-and instead of `--game`  just type anyother name you would like to try.
+and instead of `--game` just type any other name you would like to try.
 
 ## Credits
 Credit for the vast majority of code here goes to Kee Hyun Won.  I just adjusted the code for my environment and the new 
