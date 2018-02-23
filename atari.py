@@ -5,7 +5,7 @@ from environment import Environment
 from train import Trainer
 from dqn import DQN
 
-## these are just command line arguments. The 10 line code is at the bottom -- Siraj
+
 parser = argparse.ArgumentParser()
 envarg = parser.add_argument_group('Environment')
 envarg.add_argument("--game", type=str, default="SpaceInvaders-v0", help="Name of the atari game to test")
