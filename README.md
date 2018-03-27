@@ -15,11 +15,11 @@ A Tensorflow DQN implementation based on [DeepMind's DQN](https://storage.google
 
 To run, type the following into the terminal
 
-`python atari.py --game <env_name>`
+     python atari.py --game <env_name>
 
 However, if you are on an Anaconda virtual environment no need to type <env_name> just type 
 
-`python atari.py --game SpaceInvaders-v0 --display true`
+    python atari.py --game SpaceInvaders-v0 --display true
 
 and instead of `SpaceInvaders-v0` just type any other game name.
 
