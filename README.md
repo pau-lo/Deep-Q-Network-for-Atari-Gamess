@@ -1,4 +1,4 @@
-# AI_atari_games
+# Playing Atari Games using AI
 
 ## Overview
 
