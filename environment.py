@@ -1,5 +1,8 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 import gym
 import cv2
+
 
 class Environment:
 
@@ -20,15 +23,19 @@ class Environment:
     def act(self, action):
         if self.display:
             self.gym.render()
-        self.observation, reward, self.terminal, info = self.gym.step(action)
+        (self.observation, reward, self.terminal, info) = \
+            self.gym.step(action)
         if self.terminal:
-            #if self.display:
+
+            # if self.display:
             #    print "No more lives, restarting"
+
             self.gym.reset()
         return reward
 
     def getScreen(self):
-        return cv2.resize(cv2.cvtColor(self.observation, cv2.COLOR_RGB2GRAY), self.dims)
+        return cv2.resize(cv2.cvtColor(self.observation,
+                          cv2.COLOR_RGB2GRAY), self.dims)
 
     def isTerminal(self):
         return self.terminal
