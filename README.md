@@ -1,4 +1,4 @@
-# Playing Atari Games using Deep Reinforcement Learning
+# Training Atari Games using Deep Reinforcement Learning
 
 ## Overview
 
