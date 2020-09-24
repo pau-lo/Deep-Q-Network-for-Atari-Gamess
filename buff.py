@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 import numpy as np
 
 
@@ -15,7 +17,7 @@ class Buffer:
         self.buffer[:, :, -1] = state
 
     def getInput(self):
-        x = np.reshape(self.buffer, (1,) + self.dims)
+        x = np.reshape(self.buffer, (1, ) + self.dims)
         return x
 
     def getState(self):
