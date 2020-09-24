@@ -2,7 +2,9 @@
 
 ## Overview
 
-A Tensorflow DQN implementation based on [DeepMind's DQN](https://storage.googleapis.com/deepmind-data/assets/papers/DeepMindNature14236Paper.pdf) for playing Atari games.
+Deep Q-Network (DQN) is the first deep reinforcement learning method proposed by DeepMind.
+
+Here we will train a Tensorflow DQN implementation based on [DeepMind's DQN](https://storage.googleapis.com/deepmind-data/assets/papers/DeepMindNature14236Paper.pdf) for playing Atari games.
 
 ## Dependencies
 
