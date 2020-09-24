@@ -23,7 +23,7 @@ However, if you are on an Anaconda virtual environment no need to type <env_name
 
 and instead of `SpaceInvaders-v0` just type any other game name.
 
-## Credits
+## Acknowledgement
 
 Thank you Kee Hyun Won for inspiring this code. I just adjusted the code for my environment and for the new 
 tensorflow deprecated variables.
