@@ -21,13 +21,13 @@ Either use Virtual Environment through venv or anaconda:
 To run, type the following into the terminal
 
 ```bat
-$ python atari.py --game <env_name>
+$ python main.py --game <env_name>
 ```
 
 However, if you are on an Anaconda virtual environment no need to type <env_name> just type 
 
 ```bat
-$ python atari.py --game SpaceInvaders-v0 --display true
+$ python main.py --game SpaceInvaders-v0 --display true
 ```
 
 and instead of `SpaceInvaders-v0` just type any other game name.
